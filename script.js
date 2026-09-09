@@ -179,6 +179,8 @@ const btnSalir =
     document.getElementById("btnSalir");
 const btnGaleria =
     document.getElementById("btnGaleria");
+const btnGaleria =
+    document.getElementById("btnHistoria");
 
 // ACTIVAR MODO VISTA
 btnEntorno.addEventListener("click", () => {
@@ -261,6 +263,9 @@ btnSalir.addEventListener("click", () => {
 
 btnGaleria.addEventListener("click", () => {
     window.location.href = "galeria.html";
+});
+btnGaleria.addEventListener("click", () => {
+    window.location.href = "Historia.html";
 });
 
 // ==========================
